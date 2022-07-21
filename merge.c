@@ -57,8 +57,6 @@ void mergeSort(double A[1], size_t len) {
   }
 }
 
-static const int LEN = 10;
-
 int main(int argc, const char* argv[argc+1]) {
   double A[] = { 4.21, 9.487, 3.492, 8.395,2.48756, 1.934, 0.2349, 8.39, 5.329, 2.49, 5.532 };
   size_t len = sizeof A / sizeof A[0];

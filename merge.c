@@ -1,7 +1,5 @@
 #include <stdlib.h>
 #include <stdio.h>
-/* merge sort
-*/
 
 void printArray(char* fmt, double A[1], size_t len) {
   printf("%s", fmt); 

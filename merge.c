@@ -3,7 +3,7 @@
 /* merge sort
 */
 
-void printArray(char* fmt, double A[], int len) {
+void printArray(char* fmt, double A[1], size_t len) {
   printf("%s", fmt); 
   for (size_t i = 0; i < len; i++) {
     printf("%f ",A[i]); 
@@ -11,7 +11,7 @@ void printArray(char* fmt, double A[], int len) {
   printf("\n");
 }
 
-void mergeSort(double A[], size_t len) {
+void mergeSort(double A[1], size_t len) {
   if (len <= 1) {
       return;
   }

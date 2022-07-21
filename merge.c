@@ -61,6 +61,6 @@ int main(int argc, const char* argv[argc+1]) {
   double A[] = { 4.21, 9.487, 3.492, 8.395,2.48756, 1.934, 0.2349, 8.39, 5.329, 2.49, 5.532 };
   size_t len = sizeof A / sizeof A[0];
   mergeSort(A, len);
-  for (size_t i = 0; i < len; i++) { printf("%i %f \n", i, A[i]); }
+  printArray("result: ", A, len);
   return EXIT_SUCCESS;
 }

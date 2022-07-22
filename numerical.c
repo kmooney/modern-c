@@ -14,6 +14,9 @@ int main(size_t argc, char* argv[1]) {
   
   double x = deriv(sin, 1.5);
   double y = cos(-1.5);
+  /* we know that (sin x)' == cos -x 
+     so verify here 
+  */
   printf("%f %f", x, y);
   return EXIT_SUCCESS;
 }

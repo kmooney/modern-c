@@ -17,14 +17,12 @@ void swap(double A[1], int i, int j) {
 int partition(double A[1], int lo, int hi) {
    int pivot = A[hi];
    int i = lo - 1;
-
    for (int j = lo; j < hi; j++) {
      if (A[j] <= pivot) {
        i++;
        swap(A, i, j);
      }
    }
-
    i++;
    swap(A, i, hi); 
    return i;
